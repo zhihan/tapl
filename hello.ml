@@ -1,2 +1,2 @@
 (* A Test module *)
-let my_funciton (x:int) (y:int) = x + y;
+let my_function (x:int) (y:int) = x + y;
