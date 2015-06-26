@@ -12,10 +12,7 @@ In the current directory, do the following to compile the library.
 
         ocamlbuild tapl.cma
 
-You should see
-
-        Finished, 3 targets (0 cached) in 00:00:00.
-        
+You should see a message about compilation finished.
 By default, ocamlbuild generate all the target file in a subdirectory called '_build',
 cd into the subdirectory and do the following.
 
