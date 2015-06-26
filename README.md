@@ -14,10 +14,10 @@ In the current directory, do the following to compile the library.
 
 You should see a message about compilation finished.
 By default, ocamlbuild generate all the target file in a subdirectory called '_build',
-cd into the subdirectory and do the following.
+cd into the subdirectory and invoke ocaml.
 
-        ocaml
-You should see the standard OCaml header. To load the library, use
+You should see the standard OCaml header and prompt from the toplevel. 
+To load the library, use
 
         #load "tapl.cma"
 Pay attention to the '#' sign, it is part of the directive, not the command prompt.
